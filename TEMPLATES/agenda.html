@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF8">
+    <title>Agenda</title>>
+    
+</head>
+<body>
+    <h2>Agendamentos</h2>
+
+    <ul>
+
+    {% for eventos in evento %}
+    <li>{{evento.titulo}}-{{evento.data_evento}}</li>
+    {% endfor %}
+
+    <ul>
+
+
+</body>
+</html>
